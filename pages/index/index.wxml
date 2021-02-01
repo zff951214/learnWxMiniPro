@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<text class="title">pages/index/index.wxml</text>
+<button size="mini" type="primary">按钮</button>
+ 
