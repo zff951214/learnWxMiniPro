@@ -1,4 +1,9 @@
 <!--pages/index/index.wxml-->
-<text class="title">pages/index/index.wxml</text>
-<button size="mini" type="primary">按钮</button>
- 
+<!-- 数据绑定:使用Mustache 语法 -->
+<view>{{ message }}</view>
+<!-- 列表渲染 -->
+<!-- <view wx:for="(item,index) in array" :key="item.message">{{item.message}}</view> -->
+<view wx:for="{{array}}" wx:key="index">{{item.message}}</view>
+<!-- 事件监听 -->
+<button bindtap="tapName">Click me</button>
+<view class="container">当前数字:{{number}}</view>

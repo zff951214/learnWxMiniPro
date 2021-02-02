@@ -4,6 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
+		"checkSiteMap":false,
 		"urlCheck": true,
 		"scopeDataCheck": false,
 		"coverView": true,

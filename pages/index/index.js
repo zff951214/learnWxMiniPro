@@ -5,7 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    message: 'Hello MINA',
+    array:[
+      {
+        message: 'foo',
+      }, {
+        message: 'bar'
+      }
+    ],
+    number:0,
+  },
+  // 事件处理函数
+  tapName:function(){
+    // this.data.number+=1 //不能直接修改this.data
+    this.setData({
+      number:this.data.number+=1
+    })
   },
 
   /**
