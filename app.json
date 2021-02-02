@@ -3,7 +3,12 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
-  "window":{},
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor":"#000",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"white"
+  },
   
   "sitemapLocation": "sitemap52.json"
 } 

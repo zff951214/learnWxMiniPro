@@ -1,4 +1,5 @@
 /* pages/index/index.wxss */
-.title {
-  color: red;
+swiper,image {
+  width: 100%;
+  height: 350rpx;
 }
